@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TODO</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="controls">
+            <h1>My <br>Awesome<br> TODO</h1>
+            <form>
+                <input type="text" id="item" placeholder="Enter a item"><br>
+                <button type="button" id="add">Add Todo</button>
+                <button type="button" id="remove">Remove Todo</button>
+                <br><br>
+            </form>
+        </div>
+        <div class="items">
+            <ul id="mylist">
+
+                <li class="listitem"><input type="checkbox" id="check"
+                        style="padding: 5px;color: transparent;"><label>Go to Gym</label></li>
+                <li class="listitem"><input type="checkbox" id="check" checked><label>Go to Office</label></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

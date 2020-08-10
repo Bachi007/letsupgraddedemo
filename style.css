@@ -1,0 +1,82 @@
+body{
+    background-color: #ffe0f7;
+    font-family: cursive;
+}
+.controls{
+    padding: 10px;
+    outline:5px solid #251f44;
+    width: 305px;
+    height: 320px;
+    border-radius: 10px;
+}
+.items{
+    padding: 10px;
+    outline:5px solid #251f44;
+    width: 305px;
+    height: 205px;
+    margin-top: 20px;
+}
+ #add{
+    background-color:#9370D8;
+    color: whitesmoke;
+    font-family: cursive;
+    outline: none;
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+#remove{
+    background-color:#800000;
+    color: whitesmoke;
+    outline: none;
+    font-family: cursive;
+    width: 200px;
+    height: 40px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+input[type=text]{
+    width: 200px;
+    height: 40px;
+    margin-left: 45px;
+    margin-top: -20px;
+}
+
+input[type="checkbox"]:checked +label{
+    text-decoration: line-through;
+}
+::placeholder{
+    color:grey;
+    font-family: cursive;
+    font-size: large;
+}
+.container{
+    margin-left:500px;
+    padding:0px;
+    box-shadow: 2px 2px 20px 20px grey;
+    width: 325px;
+    height: 585px;
+    background-color: cornsilk;
+}
+h1{
+    color:slateblue;
+    text-shadow: 2px 0px black;
+    text-align: center;
+    font-weight: bold;
+    font-family: cursive;
+}
+li{
+    border: 2px solid grey;
+    border-radius: 25px;
+    padding:10px;
+    margin-top: 2px;
+    animation: fadein 5s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
